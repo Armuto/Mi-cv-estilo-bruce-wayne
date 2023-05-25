@@ -1,0 +1,21 @@
+main{
+    display: flex;
+}
+.section-left{
+    width: 50vw;
+    background: #F1FEFC ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-left p{
+    font-size: 2rem;
+}
+.section-right{
+    width: 50vw;
+    background: rgb(224, 169, 169);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

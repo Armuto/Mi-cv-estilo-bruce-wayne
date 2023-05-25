@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+header{
+    background: #F1FEFC;
+}
+header a{
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+}
+main{
+    padding: 0 1rem;
+}
+main section .lista{
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    background: #F1FEFC;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100vw;
+    padding: 0 1rem;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.top{
+    display: flex;
+    justify-content: center;
+}
+.top .cabecera{
+    margin: 0;
+    font-size: 2rem;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.bottom .items{
+    display:flex;
+    align-items: center;
+    padding:.4rem 1rem;
+    width: auto;
+}
+
+.right-bottom{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+.bottom-items{
+    padding: 1rem;
+}
+
+footer > a{
+    text-decoration: none;
+    color: #000;
+    font-size: .8rem;
+}
+
+.item-image{
+    width: 20px;
+    height: 20px;
+    margin-right: .6rem;
+}
+
+/* 
+main{
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+main .contenedor{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.primero{
+    width: 15rem;
+}
+.segundo{
+    width: 15rem;
+} */
